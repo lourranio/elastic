@@ -12,7 +12,8 @@ elasticsearch
   apache_template.json
   ```
 
-2. LOGSTASH
+2. LOGSTASH - logstash-patterns/files/grok-patterns
+
 ```
   https://github.com/hpcugent/logstash-patterns/blob/master/files/grok-patterns
   
