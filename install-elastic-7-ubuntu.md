@@ -1,4 +1,6 @@
-Instalando Elasticsearch 7
+# Instalando Elasticsearch 7
+
+## BAIXAR 
 
 Depois de logar no Ubuntu Server, execute os seguintes comandos:
 
@@ -11,6 +13,8 @@ Depois de logar no Ubuntu Server, execute os seguintes comandos:
     sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
      
     sudo apt-get update && sudo apt-get install elasticsearch
+
+## CONFIGURACAO 
 
 Agora, altere as configurações usando o vi:
 
@@ -35,3 +39,10 @@ Execute os comandos abaixo para iniciar o Elasticsearch e para configurar a inic
 
 O elastic search demora um pouco a levantar. Analise os logs. 
 Pode ser que demore uns 5 min pra subir dependendo do seu hardware.
+
+
+## TESTES
+
+Em linha de comando:
+
+    curl -XGET 127.0.0.1:9200
